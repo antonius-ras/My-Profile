@@ -411,6 +411,7 @@ export default function HomePage() {
                 github1: "https://github.com/antonius-ras/Mymood_mobile",
                 github2: "https://github.com/antonius-ras/Mymood_backend",
                 github3: "https://github.com/antonius-ras/Mymood_Web",
+                pdf: "/my-mood.pdf"
               },
               {
                 title: "Hotel Reservation System",
@@ -448,6 +449,7 @@ export default function HomePage() {
                     {p.github3 && <a href={p.github3} target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors">GitHub (Web)</a>}
                     {p.github4 && <a href={p.github4} target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors">GitHub</a>}
                     {p.link    && <a href={p.link} target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors">Live Demo</a>}
+                    {p.pdf     && <a href={p.pdf} target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors">Project PDF</a>}
 
                 </div>
                 </div>
