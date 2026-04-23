@@ -333,7 +333,7 @@ export default function HomePage() {
               className="px-7 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-100 transition-colors text-sm sm:text-base">
               View Projects
             </motion.a>
-            <motion.a href="/resume.pdf" download="Tobias_Antonius_Resume.pdf"
+            <motion.a href="/resume.pdf" download="Resume.pdf"
               whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
               className="px-7 py-3 border border-gray-700 text-white font-semibold rounded-xl hover:border-gray-400 transition-colors text-sm sm:text-base">
               Download Resume
