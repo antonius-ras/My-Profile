@@ -15,7 +15,7 @@ export default function ResumePage() {
         {/* Header Section */}
         <div className="bg-[#1a1a1a] p-10 border-b border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-            <h1 className="text-4xl font-bold text-white mb-2">Tobias Tonkhaau Ras</h1>
+            <h1 className="text-4xl font-bold text-white mb-2">Tobias Antonius Tonkhaau Ras</h1>
             <p className="text-green-400 font-mono text-sm">Computer Engineering Student | Full-Stack Developer</p>
           </div>
           <div className="text-right text-sm text-gray-400 space-y-1">
@@ -30,7 +30,7 @@ export default function ResumePage() {
           <section>
             <h2 className="text-xl font-bold text-white border-b border-gray-800 pb-2 mb-4">Profile</h2>
             <p className="text-gray-400 leading-relaxed text-sm">
-              Driven 3rd-year Computer Engineering student at Dhurakij Pundit University seeking a software engineering internship. Experienced in developing full-stack applications, managing structured databases, and hardware optimization. Passionate about clean code, robust architecture, and bridging the gap between software and physical systems.
+              Results-driven 3rd-year Computer Engineering student at DPU, seeking a Software Engineering internship (June - July 2026). Experienced in developing full-stack web applications, designing relational databases, and integrating AI APIs. Passionate about writing clean code, building robust server infrastructures (Home Lab), and bridging the gap between software architecture and physical IoT systems.
             </p>
           </section>
 
@@ -44,7 +44,7 @@ export default function ResumePage() {
                   <span className="text-xs text-gray-500">React, Node.js, Gemini API</span>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Built a full-stack music application integrating Gemini AI to dynamically generate personalized, mood-based playlists. Managed backend architecture connecting to a 3NF-standardized database.
+                  Developed a full-stack web application integrating Gemini AI via API to generate personalized, mood-based playlists. Engineered a robust backend architecture with a 3NF-standardized database, ensuring efficient data retrieval and high system scalability.
                 </p>
               </div>
               
@@ -54,7 +54,7 @@ export default function ResumePage() {
                   <span className="text-xs text-gray-500">React, Tailwind, PostgreSQL</span>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Developed a full-stack hotel booking platform. Designed a relational database to efficiently manage room availability, user profiles, and transactions via RESTful APIs.
+                  Built a responsive hotel reservation platform using React and Tailwind CSS. Designed secure RESTful APIs with Node.js and a PostgreSQL database to handle user authentication, real-time room availability, and concurrent booking transactions.
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ export default function ResumePage() {
                   <span className="text-xs text-gray-500">ESP32, C/C++</span>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Created a custom hardware-monitoring mini-monitor project powered by ESP32, demonstrating the integration between software data and physical hardware displays.
+                  Engineered a custom IoT hardware-monitoring device using ESP32 and C/C++. Successfully bridged real-time PC system metrics with a physical display, showcasing strong software-to-hardware integration and low-level programming skills.
                 </p>
               </div>
             </div>
@@ -84,8 +84,9 @@ export default function ResumePage() {
             <section>
               <h2 className="text-xl font-bold text-white border-b border-gray-800 pb-2 mb-4">Skills</h2>
               <div className="space-y-2 text-sm text-gray-400">
-                <p><strong className="text-gray-300">Languages:</strong> JS/TS, Python, C++, SQL</p>
+                <p><strong className="text-gray-300">Languages:</strong> JavaScript, TypeScript, Python, C/C++, SQL, Java</p>
                 <p><strong className="text-gray-300">Web:</strong> React, Next.js, Node.js, Tailwind</p>
+                <p><strong className="text-gray-300">Databases:</strong> Node.js, RESTful APIs, Supabase, PostgreSQL, MySQL, 3NF Database Design</p>
                 <p><strong className="text-gray-300">Tools:</strong> Git, Docker, REST APIs</p>
                 <p><strong className="text-gray-300">Hardware:</strong> ESP32, Server Management</p>
               </div>
@@ -99,7 +100,7 @@ export default function ResumePage() {
         <Link href="/" className="text-gray-500 hover:text-white transition-colors">
           ← Back to Portfolio
         </Link>
-        <a href="/Tobias_Antonius_Resume.pdf" download className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-200 transition-colors">
+        <a href="/Resume.pdf" download className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-200 transition-colors">
           Download PDF
         </a>
       </div>
