@@ -258,6 +258,7 @@ return (
             <div className="h-48 relative border-b border-gray-800 overflow-hidden bg-[#1a1a1a]">
               <Image src="/hotel.png" alt="Hotel Reservation System" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
+            
             <div className="p-6 flex flex-col flex-grow">
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">Hotel Reservation System</h3>
               <p className="text-gray-400 text-sm mb-6 flex-grow">A responsive full-stack hotel booking platform...</p>

@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* ✅ แบบนี้คือ v4 */
+@import "tailwindcss";
 
 body {
-  background-color: #0a0a0a; /* สีดำแบบดูมีมิติ ไม่ดำสนิทจนเกินไป */
-  color: #e5e5e5; /* สีตัวหนังสือเทาสว่าง ให้อ่านง่าย */
+  background-color: #0a0a0a;
+  color: #e5e5e5;
 }
