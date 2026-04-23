@@ -100,7 +100,7 @@ export default function ResumePage() {
         <Link href="/" className="text-gray-500 hover:text-white transition-colors">
           ← Back to Portfolio
         </Link>
-        <a href="/Resume.pdf" download className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-200 transition-colors">
+        <a href="/Tobias_Antonius_Resume.pdf" download className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-200 transition-colors">
           Download PDF
         </a>
       </div>

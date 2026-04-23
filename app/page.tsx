@@ -333,7 +333,7 @@ export default function HomePage() {
               className="px-7 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-100 transition-colors text-sm sm:text-base">
               View Projects
             </motion.a>
-            <motion.a href="/resume.pdf" download="Resume.pdf"
+            <motion.a href="/Tobias_Antonius_Resume.pdf" download
               whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
               className="px-7 py-3 border border-gray-700 text-white font-semibold rounded-xl hover:border-gray-400 transition-colors text-sm sm:text-base">
               Download Resume
@@ -500,7 +500,7 @@ export default function HomePage() {
             className="flex flex-col items-center mt-14 sm:mt-20"
           >
             <div className="flex gap-6 sm:gap-8 text-sm text-gray-500 mb-8">
-              {[{ label: "GitHub", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Resume", href: "/resume.pdf" }].map((l) => (
+              {[{ label: "GitHub", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Resume", href: "/Tobias_Antonius_Resume.pdf" }].map((l) => (
                 <motion.a key={l.label} href={l.href} target="_blank"
                   whileHover={{ color: "#ffffff", y: -2 }} className="transition-colors">
                   {l.label}
